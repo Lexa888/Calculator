@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="500.0" prefWidth="400.0">
+         <children>
+            <Button id="buttonOne" layoutX="20.0" layoutY="120.0" mnemonicParsing="false" onAction="#buttonDigitClick" prefHeight="40.0" prefWidth="40.0" text="1" />
+            <Button id="buttonTwo" layoutX="100.0" layoutY="120.0" mnemonicParsing="false" onAction="#buttonDigitClick" prefHeight="40.0" prefWidth="40.0" text="2" />
+            <Button id="buttonThree" layoutX="180.0" layoutY="120.0" mnemonicParsing="false" onAction="#buttonDigitClick" prefHeight="40.0" prefWidth="40.0" text="3" />
+            <Button id="buttonFour" layoutX="20.0" layoutY="220.0" mnemonicParsing="false" onAction="#buttonDigitClick" prefHeight="40.0" prefWidth="40.0" text="4" />
+            <Button id="buttonFive" layoutX="100.0" layoutY="220.0" mnemonicParsing="false" onAction="#buttonDigitClick" prefHeight="40.0" prefWidth="40.0" text="5" />
+            <Button id="buttonSix" layoutX="180.0" layoutY="220.0" mnemonicParsing="false" onAction="#buttonDigitClick" prefHeight="40.0" prefWidth="40.0" text="6" />
+            <Button id="buttonSeven" layoutX="20.0" layoutY="320.0" mnemonicParsing="false" onAction="#buttonDigitClick" prefHeight="40.0" prefWidth="40.0" text="7" />
+            <Button id="buttonEight" layoutX="100.0" layoutY="320.0" mnemonicParsing="false" onAction="#buttonDigitClick" prefHeight="40.0" prefWidth="40.0" text="8" />
+            <Button id="buttonNine" layoutX="180.0" layoutY="320.0" mnemonicParsing="false" onAction="#buttonDigitClick" prefHeight="40.0" prefWidth="40.0" text="9" />
+            <Button id="buttonZero" layoutX="100.0" layoutY="420.0" mnemonicParsing="false" onAction="#buttonDigitClick" prefHeight="40.0" prefWidth="40.0" text="0" />
+            <Button id="buttonComma" layoutX="20.0" layoutY="420.0" mnemonicParsing="false" onAction="#buttonCommaClick" prefHeight="40.0" prefWidth="40.0" text="," />
+            <Button id="buttonPlus" layoutX="300.0" layoutY="120.0" mnemonicParsing="false" onAction="#buttonMathOperatorClick" prefHeight="50.0" prefWidth="50.0" text="+" />
+            <Button id="buttonMInus" layoutX="300.0" layoutY="195.0" mnemonicParsing="false" onAction="#buttonMathOperatorClick" prefHeight="50.0" prefWidth="50.0" text="-" />
+            <Button id="buttonDivide" layoutX="300.0" layoutY="270.0" mnemonicParsing="false" onAction="#buttonMathOperatorClick" prefHeight="50.0" prefWidth="50.0" text="/" />
+            <Button id="buttonMultiply" layoutX="300.0" layoutY="345.0" mnemonicParsing="false" onAction="#buttonMathOperatorClick" prefHeight="50.0" prefWidth="50.0" text="*" />
+            <Button id="buttonAC" layoutX="180.0" layoutY="420.0" mnemonicParsing="false" onAction="#buttonClearClick" prefHeight="40.0" prefWidth="40.0" text="AC" />
+            <Button id="buttonEqually" layoutX="300.0" layoutY="420.0" mnemonicParsing="false" onAction="#buttonEquallyClick" prefHeight="50.0" prefWidth="50.0" text="=" />
+            <TextField id="display" fx:id="display" layoutX="20.0" layoutY="20.0" prefHeight="50.0" prefWidth="350.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>
